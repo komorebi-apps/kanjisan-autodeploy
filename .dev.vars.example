@@ -1,0 +1,2 @@
+# Local development example only. Do not put real secrets in GitHub.
+ADMIN_TOKEN=replace-with-a-random-secret-of-at-least-32-characters

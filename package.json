@@ -1,0 +1,18 @@
+{
+  "name": "kanjisan-autodeploy",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "cloudflare": {
+    "bindings": {
+      "ADMIN_TOKEN": {
+        "description": "幹事さん管理者用の秘密文字列。32文字以上のランダムな値を設定してください。他人と共有せず、GitHubに登録しないでください。"
+      }
+    }
+  }
+}
